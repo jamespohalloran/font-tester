@@ -1,5 +1,3 @@
-<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
-
 <style>
   @font-face {
     font-family: 'pixel-test';
@@ -26,23 +24,24 @@
 </style>
 
 <label>Font Size:</label>
-<input id="font-size" value="24" type="number" />
+<input id="font-size" value="24" type="number" onkeyup="fontSizeUpdated()" />
 <label>Font Weight:</label>
-<input id="font-weight" value="400" type="number" />
+<input id="font-weight" value="400" type="number" onkeyup="fontWeightUpdated()" />
 
 <textarea id="font-demo" value="Try out some text">Try out some text</textarea>
 
-<script>
-  $(document).ready(function () {
-    //document.getElementById("font-size")
+<script type="text/javascript">
+  fontSizeUpdated();
+  fontWeightUpdated();
+  function fontSizeUpdated() {
+    var fontSizeInput = document.getElementById("font-size")
+    var demo = document.getElementById("font-demo")
+    demo.style.fontSize = fontSizeInput.value;
+  }
 
-    $("#font-size").keyup(function () {
-      $("#font-demo").css("fontSize", this.value)
-    });
-
-    $("#font-weight").keyup(function () {
-      $("#font-demo").css("fontWeight", this.value)
-    });
-  })
-
+  function fontWeightUpdated() {
+    var fontWeightInput = document.getElementById("font-weight")
+    var demo = document.getElementById("font-demo")
+    demo.style.fontWeight = fontWeightInput.value;
+  }
 </script>
