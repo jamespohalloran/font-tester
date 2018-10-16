@@ -1,0 +1,48 @@
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
+<style>
+  @font-face {
+    font-family: 'pixel-test';
+    src: url('https://static1.squarespace.com/static/5bc65873348cd93c78f888ed/t/5bc6608771c10bb5312d1841/1539727496127/AlexBrush-Regular.ttf') format('truetype');
+  }
+
+  #font-demo {
+    font-size: 24px;
+    font-family: "pixel-test";
+    width: 100%;
+    height: 300px;
+
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    margin-top: 20px;
+
+    font-weight: 300;
+  }
+</style>
+
+<label>Font Size:</label>
+<input id="font-size" value="24" type="number" />
+<label>Font Weight:</label>
+<input id="font-weight" value="400" type="number" />
+
+<textarea id="font-demo" value="Try out some text">Try out some text</textarea>
+
+<script>
+  $(document).ready(function () {
+    //document.getElementById("font-size")
+
+    $("#font-size").keyup(function () {
+      $("#font-demo").css("fontSize", this.value)
+    });
+
+    $("#font-weight").keyup(function () {
+      $("#font-demo").css("fontWeight", this.value)
+    });
+  })
+
+</script>
