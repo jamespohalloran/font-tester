@@ -35,8 +35,6 @@
     var demo = document.getElementById("font-demo")
     demo.style.fontWeight = fontWeightInput.value;
   }
-  fontSizeUpdated();
-  fontWeightUpdated();
 </script>
 
 <label>Font Size:</label>
@@ -47,6 +45,6 @@
 <textarea id="font-demo" value="Try out some text">Try out some text</textarea>
 
 <script type="text/javascript">
-  fontSizeUpdated();
-  fontWeightUpdated();
+  window.fontSizeUpdated();
+  window.fontWeightUpdated();
 </script>
