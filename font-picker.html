@@ -24,13 +24,13 @@
 </style>
 
 <script type="text/javascript">
-  function fontSizeUpdated() {
+  window.fontSizeUpdated = function () {
     var fontSizeInput = document.getElementById("font-size")
     var demo = document.getElementById("font-demo")
     demo.style.fontSize = fontSizeInput.value;
   }
 
-  function fontWeightUpdated() {
+  window.fontWeightUpdated = function () {
     var fontWeightInput = document.getElementById("font-weight")
     var demo = document.getElementById("font-demo")
     demo.style.fontWeight = fontWeightInput.value;
@@ -40,8 +40,13 @@
 </script>
 
 <label>Font Size:</label>
-<input id="font-size" value="24" type="number" onkeyup="fontSizeUpdated()" />
+<input id="font-size" value="24" type="number" onkeyup="window.fontSizeUpdated()" />
 <label>Font Weight:</label>
-<input id="font-weight" value="400" type="number" onkeyup="fontWeightUpdated()" />
+<input id="font-weight" value="400" type="number" onkeyup="window.fontWeightUpdated()" />
 
 <textarea id="font-demo" value="Try out some text">Try out some text</textarea>
+
+<script type="text/javascript">
+  fontSizeUpdated();
+  fontWeightUpdated();
+</script>
