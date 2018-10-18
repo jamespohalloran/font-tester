@@ -3,8 +3,20 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style>
   @font-face {
-    font-family: 'pixel-test';
-    src: url('https://static1.squarespace.com/static/5bc65873348cd93c78f888ed/t/5bc6608771c10bb5312d1841/1539727496127/AlexBrush-Regular.ttf') format('truetype');
+    font-family: 'TradesmithRegular';
+    src: url('https://static1.squarespace.com/static/5bc65873348cd93c78f888ed/t/5bc7e9388165f5a8fbaa307f/1539828024710/TradesmithRegular.otf') format('truetype');
+  }
+  @font-face {
+    font-family: 'TradesmithRough';
+    src: url('https://static1.squarespace.com/static/5bc65873348cd93c78f888ed/t/5bc7e940e2c4831959b7522a/1539828032794/TradesmithRough.otf') format('truetype');
+  }
+  @font-face {
+    font-family: 'TradesmithRound';
+    src: url('https://static1.squarespace.com/static/5bc65873348cd93c78f888ed/t/5bc7e9459140b7397ee4b6e8/1539828037674/TradesmithRound.otf') format('truetype');
+  }
+  @font-face {
+    font-family: 'TradesmithStamp';
+    src: url('https://static1.squarespace.com/static/5bc65873348cd93c78f888ed/t/5bc7e94d104c7b9806708875/1539828048426/TradesmithStamp.otf') format('truetype');
   }
 
   #font-picker {
@@ -12,8 +24,8 @@
   }
 
    #font-demo {
-    font-size: 24px;
-    font-family: "pixel-test";
+    font-size: 80px;
+    font-family: "TradesmithRegular";
     width: 100%;
     height: 200px;
      border: none;
@@ -24,16 +36,29 @@
     box-shadow: none;
     margin-top: 20px;
      font-weight: 300;
-     padding-top: 100px;
+     padding-top: 10px;
   }
 
   .font-option {
     margin-right: 1rem;
-    display: inline-block
+    margin-top: 1rem;
+    display: inline-block;
   }
   
   .dropdown {
     display: inline-block;
+  }
+
+  #font-size {
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+
+    border-color: #ccc;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
   }
 </style>
 <div id="font-picker">
@@ -44,15 +69,16 @@
           a style</span>
         <span class="caret"></span></button>
       <ul class="dropdown-menu">
-        <li><a data-font-family="dooda1" href="#">HTML</a></li>
-        <li><a data-font-family="dooda1" href="#">CSS</a></li>
-        <li><a data-font-family="dooda1" href="#">JavaScript</a></li>
+        <li><a data-font-family="TradesmithRegular" href="#">Regular</a></li>
+        <li><a data-font-family="TradesmithRough" href="#">Rough</a></li>
+        <li><a data-font-family="TradesmithRound" href="#">Round</a></li>
+        <li><a data-font-family="TradesmithStamp" href="#">Stamp</a></li>
       </ul>
     </div>
   </div>
   <div class="font-option">
     <label>Font Size:</label>
-    <input id="font-size" value="24" type="number" />
+    <input id="font-size" value="80" type="number" />
   </div>
   <textarea id="font-demo" value="Try out some text">Try out some text</textarea>
 </div>
