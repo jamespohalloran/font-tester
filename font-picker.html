@@ -1,9 +1,16 @@
-<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
- <style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
   @font-face {
     font-family: 'pixel-test';
     src: url('https://static1.squarespace.com/static/5bc65873348cd93c78f888ed/t/5bc6608771c10bb5312d1841/1539727496127/AlexBrush-Regular.ttf') format('truetype');
   }
+
+  #font-picker {
+    padding: 1rem;
+  }
+
    #font-demo {
     font-size: 24px;
     font-family: "pixel-test";
@@ -19,21 +26,46 @@
      font-weight: 300;
      padding-top: 100px;
   }
+
+  .font-option {
+    margin-right: 1rem;
+    display: inline-block
+  }
+  
+  .dropdown {
+    display: inline-block;
+  }
 </style>
- <label>Font Size:</label>
-<input id="font-size" value="24" type="number" />
-<label>Font Weight:</label>
-<input id="font-weight" value="400" type="number" />
- <textarea id="font-demo" value="Try out some text">Try out some text</textarea>
- <script>
+<div id="font-picker">
+  <div class="font-option">
+    <label>Style:</label>
+    <div class="dropdown">
+      <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown"><span class="display">Choose
+          a style</span>
+        <span class="caret"></span></button>
+      <ul class="dropdown-menu">
+        <li><a data-font-family="dooda1" href="#">HTML</a></li>
+        <li><a data-font-family="dooda1" href="#">CSS</a></li>
+        <li><a data-font-family="dooda1" href="#">JavaScript</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="font-option">
+    <label>Font Size:</label>
+    <input id="font-size" value="24" type="number" />
+  </div>
+  <textarea id="font-demo" value="Try out some text">Try out some text</textarea>
+</div>
+<script>
   $(document).ready(function () {
     //document.getElementById("font-size")
-     $("#font-size").keyup(function () {
-        $("#font-demo").addClass("test123");
-       $("#font-demo").css("font-size", this.value + "px");
+    $("#font-size").keyup(function () {
+      $("#font-demo").addClass("test123");
+      $("#font-demo").css("font-size", this.value + "px");
     });
-     $("#font-weight").keyup(function () {
-      $("#font-demo").css("font-weight", this.value)
+    $(".dropdown-menu li a").click(function () {
+      $("#font-demo").css("font-family", ($(this).attr("data-font-family")));
+      $(".dropdown button .display").text($(this).text());
     });
   })
- </script>
+</script>
