@@ -1,0 +1,944 @@
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*!
+ * Generated using the Bootstrap Customizer (<none>)
+ * Config saved to config.json and <none>
+ */
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+#font-picker html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+#font-picker body {
+  margin: 0;
+}
+#font-picker article,
+#font-picker aside,
+#font-picker details,
+#font-picker figcaption,
+#font-picker figure,
+#font-picker footer,
+#font-picker header,
+#font-picker hgroup,
+#font-picker main,
+#font-picker menu,
+#font-picker nav,
+#font-picker section,
+#font-picker summary {
+  display: block;
+}
+#font-picker audio,
+#font-picker canvas,
+#font-picker progress,
+#font-picker video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+#font-picker audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+#font-picker [hidden],
+#font-picker template {
+  display: none;
+}
+#font-picker a {
+  background-color: transparent;
+}
+#font-picker a:active,
+#font-picker a:hover {
+  outline: 0;
+}
+#font-picker abbr[title] {
+  border-bottom: 1px dotted;
+}
+#font-picker b,
+#font-picker strong {
+  font-weight: bold;
+}
+#font-picker dfn {
+  font-style: italic;
+}
+#font-picker h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+#font-picker mark {
+  background: #ff0;
+  color: #000;
+}
+#font-picker small {
+  font-size: 80%;
+}
+#font-picker sub,
+#font-picker sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+#font-picker sup {
+  top: -0.5em;
+}
+#font-picker sub {
+  bottom: -0.25em;
+}
+#font-picker img {
+  border: 0;
+}
+#font-picker svg:not(:root) {
+  overflow: hidden;
+}
+#font-picker figure {
+  margin: 1em 40px;
+}
+#font-picker hr {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+#font-picker pre {
+  overflow: auto;
+}
+#font-picker code,
+#font-picker kbd,
+#font-picker pre,
+#font-picker samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+#font-picker button,
+#font-picker input,
+#font-picker optgroup,
+#font-picker select,
+#font-picker textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+#font-picker button {
+  overflow: visible;
+}
+#font-picker button,
+#font-picker select {
+  text-transform: none;
+}
+#font-picker button,
+#font-picker html input[type="button"],
+#font-picker input[type="reset"],
+#font-picker input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+#font-picker button[disabled],
+#font-picker html input[disabled] {
+  cursor: default;
+}
+#font-picker button::-moz-focus-inner,
+#font-picker input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+#font-picker input {
+  line-height: normal;
+}
+#font-picker input[type="checkbox"],
+#font-picker input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+#font-picker input[type="number"]::-webkit-inner-spin-button,
+#font-picker input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+#font-picker input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+#font-picker input[type="search"]::-webkit-search-cancel-button,
+#font-picker input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+#font-picker fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+#font-picker legend {
+  border: 0;
+  padding: 0;
+}
+#font-picker textarea {
+  overflow: auto;
+}
+#font-picker optgroup {
+  font-weight: bold;
+}
+#font-picker table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+#font-picker td,
+#font-picker th {
+  padding: 0;
+}
+#font-picker * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#font-picker *:before,
+#font-picker *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#font-picker html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+#font-picker body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+  background-color: #ffffff;
+}
+#font-picker input,
+#font-picker button,
+#font-picker select,
+#font-picker textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+#font-picker a {
+  color: #337ab7;
+  text-decoration: none;
+}
+#font-picker a:hover,
+#font-picker a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+#font-picker a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+#font-picker figure {
+  margin: 0;
+}
+#font-picker img {
+  vertical-align: middle;
+}
+#font-picker .img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+#font-picker .img-rounded {
+  border-radius: 6px;
+}
+#font-picker .img-thumbnail {
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+#font-picker .img-circle {
+  border-radius: 50%;
+}
+#font-picker hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+#font-picker .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+#font-picker .sr-only-focusable:active,
+#font-picker .sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
+#font-picker [role="button"] {
+  cursor: pointer;
+}
+#font-picker .btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#font-picker .btn:focus,
+#font-picker .btn:active:focus,
+#font-picker .btn.active:focus,
+#font-picker .btn.focus,
+#font-picker .btn:active.focus,
+#font-picker .btn.active.focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+#font-picker .btn:hover,
+#font-picker .btn:focus,
+#font-picker .btn.focus {
+  color: #333333;
+  text-decoration: none;
+}
+#font-picker .btn:active,
+#font-picker .btn.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+#font-picker .btn.disabled,
+#font-picker .btn[disabled],
+#font-picker fieldset[disabled] .btn {
+  cursor: not-allowed;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#font-picker a.btn.disabled,
+#font-picker fieldset[disabled] a.btn {
+  pointer-events: none;
+}
+#font-picker .btn-default {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+#font-picker .btn-default:focus,
+#font-picker .btn-default.focus {
+  color: #333333;
+  background-color: #e6e6e6;
+  border-color: #8c8c8c;
+}
+#font-picker .btn-default:hover {
+  color: #333333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+#font-picker .btn-default:active,
+#font-picker .btn-default.active,
+#font-picker .open > .dropdown-toggle.btn-default {
+  color: #333333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+#font-picker .btn-default:active:hover,
+#font-picker .btn-default.active:hover,
+#font-picker .open > .dropdown-toggle.btn-default:hover,
+#font-picker .btn-default:active:focus,
+#font-picker .btn-default.active:focus,
+#font-picker .open > .dropdown-toggle.btn-default:focus,
+#font-picker .btn-default:active.focus,
+#font-picker .btn-default.active.focus,
+#font-picker .open > .dropdown-toggle.btn-default.focus {
+  color: #333333;
+  background-color: #d4d4d4;
+  border-color: #8c8c8c;
+}
+#font-picker .btn-default:active,
+#font-picker .btn-default.active,
+#font-picker .open > .dropdown-toggle.btn-default {
+  background-image: none;
+}
+#font-picker .btn-default.disabled:hover,
+#font-picker .btn-default[disabled]:hover,
+#font-picker fieldset[disabled] .btn-default:hover,
+#font-picker .btn-default.disabled:focus,
+#font-picker .btn-default[disabled]:focus,
+#font-picker fieldset[disabled] .btn-default:focus,
+#font-picker .btn-default.disabled.focus,
+#font-picker .btn-default[disabled].focus,
+#font-picker fieldset[disabled] .btn-default.focus {
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+#font-picker .btn-default .badge {
+  color: #ffffff;
+  background-color: #333333;
+}
+#font-picker .btn-primary {
+  color: #ffffff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+#font-picker .btn-primary:focus,
+#font-picker .btn-primary.focus {
+  color: #ffffff;
+  background-color: #286090;
+  border-color: #122b40;
+}
+#font-picker .btn-primary:hover {
+  color: #ffffff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+#font-picker .btn-primary:active,
+#font-picker .btn-primary.active,
+#font-picker .open > .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+#font-picker .btn-primary:active:hover,
+#font-picker .btn-primary.active:hover,
+#font-picker .open > .dropdown-toggle.btn-primary:hover,
+#font-picker .btn-primary:active:focus,
+#font-picker .btn-primary.active:focus,
+#font-picker .open > .dropdown-toggle.btn-primary:focus,
+#font-picker .btn-primary:active.focus,
+#font-picker .btn-primary.active.focus,
+#font-picker .open > .dropdown-toggle.btn-primary.focus {
+  color: #ffffff;
+  background-color: #204d74;
+  border-color: #122b40;
+}
+#font-picker .btn-primary:active,
+#font-picker .btn-primary.active,
+#font-picker .open > .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+#font-picker .btn-primary.disabled:hover,
+#font-picker .btn-primary[disabled]:hover,
+#font-picker fieldset[disabled] .btn-primary:hover,
+#font-picker .btn-primary.disabled:focus,
+#font-picker .btn-primary[disabled]:focus,
+#font-picker fieldset[disabled] .btn-primary:focus,
+#font-picker .btn-primary.disabled.focus,
+#font-picker .btn-primary[disabled].focus,
+#font-picker fieldset[disabled] .btn-primary.focus {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+#font-picker .btn-primary .badge {
+  color: #337ab7;
+  background-color: #ffffff;
+}
+#font-picker .btn-success {
+  color: #ffffff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+#font-picker .btn-success:focus,
+#font-picker .btn-success.focus {
+  color: #ffffff;
+  background-color: #449d44;
+  border-color: #255625;
+}
+#font-picker .btn-success:hover {
+  color: #ffffff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+#font-picker .btn-success:active,
+#font-picker .btn-success.active,
+#font-picker .open > .dropdown-toggle.btn-success {
+  color: #ffffff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+#font-picker .btn-success:active:hover,
+#font-picker .btn-success.active:hover,
+#font-picker .open > .dropdown-toggle.btn-success:hover,
+#font-picker .btn-success:active:focus,
+#font-picker .btn-success.active:focus,
+#font-picker .open > .dropdown-toggle.btn-success:focus,
+#font-picker .btn-success:active.focus,
+#font-picker .btn-success.active.focus,
+#font-picker .open > .dropdown-toggle.btn-success.focus {
+  color: #ffffff;
+  background-color: #398439;
+  border-color: #255625;
+}
+#font-picker .btn-success:active,
+#font-picker .btn-success.active,
+#font-picker .open > .dropdown-toggle.btn-success {
+  background-image: none;
+}
+#font-picker .btn-success.disabled:hover,
+#font-picker .btn-success[disabled]:hover,
+#font-picker fieldset[disabled] .btn-success:hover,
+#font-picker .btn-success.disabled:focus,
+#font-picker .btn-success[disabled]:focus,
+#font-picker fieldset[disabled] .btn-success:focus,
+#font-picker .btn-success.disabled.focus,
+#font-picker .btn-success[disabled].focus,
+#font-picker fieldset[disabled] .btn-success.focus {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+#font-picker .btn-success .badge {
+  color: #5cb85c;
+  background-color: #ffffff;
+}
+#font-picker .btn-info {
+  color: #ffffff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+#font-picker .btn-info:focus,
+#font-picker .btn-info.focus {
+  color: #ffffff;
+  background-color: #31b0d5;
+  border-color: #1b6d85;
+}
+#font-picker .btn-info:hover {
+  color: #ffffff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+#font-picker .btn-info:active,
+#font-picker .btn-info.active,
+#font-picker .open > .dropdown-toggle.btn-info {
+  color: #ffffff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+#font-picker .btn-info:active:hover,
+#font-picker .btn-info.active:hover,
+#font-picker .open > .dropdown-toggle.btn-info:hover,
+#font-picker .btn-info:active:focus,
+#font-picker .btn-info.active:focus,
+#font-picker .open > .dropdown-toggle.btn-info:focus,
+#font-picker .btn-info:active.focus,
+#font-picker .btn-info.active.focus,
+#font-picker .open > .dropdown-toggle.btn-info.focus {
+  color: #ffffff;
+  background-color: #269abc;
+  border-color: #1b6d85;
+}
+#font-picker .btn-info:active,
+#font-picker .btn-info.active,
+#font-picker .open > .dropdown-toggle.btn-info {
+  background-image: none;
+}
+#font-picker .btn-info.disabled:hover,
+#font-picker .btn-info[disabled]:hover,
+#font-picker fieldset[disabled] .btn-info:hover,
+#font-picker .btn-info.disabled:focus,
+#font-picker .btn-info[disabled]:focus,
+#font-picker fieldset[disabled] .btn-info:focus,
+#font-picker .btn-info.disabled.focus,
+#font-picker .btn-info[disabled].focus,
+#font-picker fieldset[disabled] .btn-info.focus {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+#font-picker .btn-info .badge {
+  color: #5bc0de;
+  background-color: #ffffff;
+}
+#font-picker .btn-warning {
+  color: #ffffff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+#font-picker .btn-warning:focus,
+#font-picker .btn-warning.focus {
+  color: #ffffff;
+  background-color: #ec971f;
+  border-color: #985f0d;
+}
+#font-picker .btn-warning:hover {
+  color: #ffffff;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+#font-picker .btn-warning:active,
+#font-picker .btn-warning.active,
+#font-picker .open > .dropdown-toggle.btn-warning {
+  color: #ffffff;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+#font-picker .btn-warning:active:hover,
+#font-picker .btn-warning.active:hover,
+#font-picker .open > .dropdown-toggle.btn-warning:hover,
+#font-picker .btn-warning:active:focus,
+#font-picker .btn-warning.active:focus,
+#font-picker .open > .dropdown-toggle.btn-warning:focus,
+#font-picker .btn-warning:active.focus,
+#font-picker .btn-warning.active.focus,
+#font-picker .open > .dropdown-toggle.btn-warning.focus {
+  color: #ffffff;
+  background-color: #d58512;
+  border-color: #985f0d;
+}
+#font-picker .btn-warning:active,
+#font-picker .btn-warning.active,
+#font-picker .open > .dropdown-toggle.btn-warning {
+  background-image: none;
+}
+#font-picker .btn-warning.disabled:hover,
+#font-picker .btn-warning[disabled]:hover,
+#font-picker fieldset[disabled] .btn-warning:hover,
+#font-picker .btn-warning.disabled:focus,
+#font-picker .btn-warning[disabled]:focus,
+#font-picker fieldset[disabled] .btn-warning:focus,
+#font-picker .btn-warning.disabled.focus,
+#font-picker .btn-warning[disabled].focus,
+#font-picker fieldset[disabled] .btn-warning.focus {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+#font-picker .btn-warning .badge {
+  color: #f0ad4e;
+  background-color: #ffffff;
+}
+#font-picker .btn-danger {
+  color: #ffffff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+#font-picker .btn-danger:focus,
+#font-picker .btn-danger.focus {
+  color: #ffffff;
+  background-color: #c9302c;
+  border-color: #761c19;
+}
+#font-picker .btn-danger:hover {
+  color: #ffffff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+#font-picker .btn-danger:active,
+#font-picker .btn-danger.active,
+#font-picker .open > .dropdown-toggle.btn-danger {
+  color: #ffffff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+#font-picker .btn-danger:active:hover,
+#font-picker .btn-danger.active:hover,
+#font-picker .open > .dropdown-toggle.btn-danger:hover,
+#font-picker .btn-danger:active:focus,
+#font-picker .btn-danger.active:focus,
+#font-picker .open > .dropdown-toggle.btn-danger:focus,
+#font-picker .btn-danger:active.focus,
+#font-picker .btn-danger.active.focus,
+#font-picker .open > .dropdown-toggle.btn-danger.focus {
+  color: #ffffff;
+  background-color: #ac2925;
+  border-color: #761c19;
+}
+#font-picker .btn-danger:active,
+#font-picker .btn-danger.active,
+#font-picker .open > .dropdown-toggle.btn-danger {
+  background-image: none;
+}
+#font-picker .btn-danger.disabled:hover,
+#font-picker .btn-danger[disabled]:hover,
+#font-picker fieldset[disabled] .btn-danger:hover,
+#font-picker .btn-danger.disabled:focus,
+#font-picker .btn-danger[disabled]:focus,
+#font-picker fieldset[disabled] .btn-danger:focus,
+#font-picker .btn-danger.disabled.focus,
+#font-picker .btn-danger[disabled].focus,
+#font-picker fieldset[disabled] .btn-danger.focus {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+#font-picker .btn-danger .badge {
+  color: #d9534f;
+  background-color: #ffffff;
+}
+#font-picker .btn-link {
+  color: #337ab7;
+  font-weight: normal;
+  border-radius: 0;
+}
+#font-picker .btn-link,
+#font-picker .btn-link:active,
+#font-picker .btn-link.active,
+#font-picker .btn-link[disabled],
+#font-picker fieldset[disabled] .btn-link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#font-picker .btn-link,
+#font-picker .btn-link:hover,
+#font-picker .btn-link:focus,
+#font-picker .btn-link:active {
+  border-color: transparent;
+}
+#font-picker .btn-link:hover,
+#font-picker .btn-link:focus {
+  color: #23527c;
+  text-decoration: underline;
+  background-color: transparent;
+}
+#font-picker .btn-link[disabled]:hover,
+#font-picker fieldset[disabled] .btn-link:hover,
+#font-picker .btn-link[disabled]:focus,
+#font-picker fieldset[disabled] .btn-link:focus {
+  color: #777777;
+  text-decoration: none;
+}
+#font-picker .btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+#font-picker .btn-sm {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+#font-picker .btn-xs {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+#font-picker .btn-block {
+  display: block;
+  width: 100%;
+}
+#font-picker .btn-block + .btn-block {
+  margin-top: 5px;
+}
+#font-picker input[type="submit"].btn-block,
+#font-picker input[type="reset"].btn-block,
+#font-picker input[type="button"].btn-block {
+  width: 100%;
+}
+#font-picker .caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid \9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+#font-picker .dropup,
+#font-picker .dropdown {
+  position: relative;
+}
+#font-picker .dropdown-toggle:focus {
+  outline: 0;
+}
+#font-picker .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 14px;
+  text-align: left;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#font-picker .dropdown-menu.pull-right {
+  right: 0;
+  left: auto;
+}
+#font-picker .dropdown-menu .divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+#font-picker .dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #333333;
+  white-space: nowrap;
+}
+#font-picker .dropdown-menu > li > a:hover,
+#font-picker .dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #262626;
+  background-color: #f5f5f5;
+}
+#font-picker .dropdown-menu > .active > a,
+#font-picker .dropdown-menu > .active > a:hover,
+#font-picker .dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #337ab7;
+}
+#font-picker .dropdown-menu > .disabled > a,
+#font-picker .dropdown-menu > .disabled > a:hover,
+#font-picker .dropdown-menu > .disabled > a:focus {
+  color: #777777;
+}
+#font-picker .dropdown-menu > .disabled > a:hover,
+#font-picker .dropdown-menu > .disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  cursor: not-allowed;
+}
+#font-picker .open > .dropdown-menu {
+  display: block;
+}
+#font-picker .open > a {
+  outline: 0;
+}
+#font-picker .dropdown-menu-right {
+  left: auto;
+  right: 0;
+}
+#font-picker .dropdown-menu-left {
+  left: 0;
+  right: auto;
+}
+#font-picker .dropdown-header {
+  display: block;
+  padding: 3px 20px;
+  font-size: 12px;
+  line-height: 1.42857143;
+  color: #777777;
+  white-space: nowrap;
+}
+#font-picker .dropdown-backdrop {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 990;
+}
+#font-picker .pull-right > .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+#font-picker .dropup .caret,
+#font-picker .navbar-fixed-bottom .dropdown .caret {
+  border-top: 0;
+  border-bottom: 4px dashed;
+  border-bottom: 4px solid \9;
+  content: "";
+}
+#font-picker .dropup .dropdown-menu,
+#font-picker .navbar-fixed-bottom .dropdown .dropdown-menu {
+  top: auto;
+  bottom: 100%;
+  margin-bottom: 2px;
+}
+@media (min-width: 768px) {
+  #font-picker .navbar-right .dropdown-menu {
+    left: auto;
+    right: 0;
+  }
+  #font-picker .navbar-right .dropdown-menu-left {
+    left: 0;
+    right: auto;
+  }
+}
+#font-picker .clearfix:before,
+#font-picker .clearfix:after {
+  content: " ";
+  display: table;
+}
+#font-picker .clearfix:after {
+  clear: both;
+}
+#font-picker .center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#font-picker .pull-right {
+  float: right !important;
+}
+#font-picker .pull-left {
+  float: left !important;
+}
+#font-picker .hide {
+  display: none !important;
+}
+#font-picker .show {
+  display: block !important;
+}
+#font-picker .invisible {
+  visibility: hidden;
+}
+#font-picker .text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+#font-picker .hidden {
+  display: none !important;
+}
+#font-picker .affix {
+  position: fixed;
+}
